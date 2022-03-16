@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/*Cores*/
+
+:root{
+    --dark-blue: #0466A8;
+    --medium-dark-blue: #098BBD;
+    --light-blue: #26B6DA;
+    --my-cyan: #28C5D9;
+    --weird-gray: #DAC6B9;
+}
+
+/*Fontes para textos e títulos*/
+
+.poppins{
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.strong{
+    font-weight: 600;
+}
+
+.bg-blue-gradient{
+    background: linear-gradient(45deg, var(--dark-blue), var(--medium-dark-blue), var(--light-blue));
+    border: none;
+}
+.blue-gradient{
+    background: linear-gradient(45deg, var(--dark-blue), var(--medium-dark-blue), var(--light-blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+h1{
+
+   margin: 0;
+
+}
+
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(/img/numbers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    color: #fff;
+    z-index: -1;
+    
+    
+}
+
+.link {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+  }
+  
+.link:hover {
+    color: #000;
+    text-decoration: none;
+    
+  }
+  
+.link::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2.5px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(10, 199, 233);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    
+  }
+  
+  .link:hover::before {
+    transform: scaleX(1);
+  }
+
+
+ 
+  .img-logo{
+      border-radius: 15;
+      width: fit-content;
+
+  }
+  
+  .myCard-img{
+      width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+
+  }
+
+  .card-contain{
+      height: 30vh;
+      width: auto;
+  }
+
+  
+
+  

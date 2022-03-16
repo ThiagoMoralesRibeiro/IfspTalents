@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Projeto Talentos IFSP-GRU</title>
+    <!------------Referência do projeto reset.css----------->
+    <link rel="stylesheet" href="CSS/reset.css">
+
+    <!------------Referência do projeto index.css----------->
+    <link rel="stylesheet" href="CSS/index.css">
+
+    <!-----------Última compilação minificada CSS----------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!------------------------JQUERY------------------------>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!----------------------Popper JS----------------------->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!---------Mais recente compilação Javascript----------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!----------------------Ícones-------------------------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <!----------------------Barra de Navegação-------------------------->
+
+    <nav class="navbar fixed-top bg-light poppins" id="navegation">
+        <a href="#banner" id="logo" class="navbar-brand blue-gradient strong">IFSP-GRU</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="fas fa-bars blue-gradient "></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        
+            <ul class="navbar-nav mb-1 mt-2">
+                <li class="nav-item mb-2 pl-4">
+                    <a class=" text-dark strong link" href="#" id="home">Home</a>
+                </li>
+                 <li class="nav-item mb-2 pl-4">
+                    <a class=" text-dark strong link " href="#">Sobre</a>
+                </li>
+                <li class="nav-item mb-2 pl-4">
+                    <a class="text-dark strong link" href="#">Ajuda</a>
+                </li>
+            </ul>
+
+            <!----------------------Formulário para filtrar as empresas-------------------------->
+
+            <form class="form-inline justify-content-center" >
+                <input class="form-control m-2" type="text" id="fieldFinder" placeholder="Pesquisar por empresa">    
+            </form>
+
+        </div>
+    </nav>
+
+    <!----------------------Banner do Site-------------------------->
+
+    <header class="banner" id="banner">
+        <h1 class="poppins m-3">
+            Projetos dos Talentos do <span class="blue-gradient">IFSP-GRU</span>
+        </h1> 
+        <p class="poppins mt-1">Sites de cada um dos participantes</p>
+        
+    </header>
+
+    <!----------------------Cards dos Sites-------------------------->
+
+    <div class="text-center poppins strong mt-4 mb-4" >
+        <h2 >Biblioteca de <span class="blue-gradient" id="cardsTitle"> Sites </span></h2>
+    </div>
+
+    <div class="container mt-3" id="logo_section">
+        <div class="row d-flex justify-content-around ">
+            <div class=" col-11 col-sm-11 col-md-11 col-lg-3  m-1 p-0">
+                <div class="card p-3 filter">
+                    <div class="card-contain">
+                        <img src="/logos/adsumus.png" alt="Adsumus" class="myCard-img ">
+                    </div>
+                    
+                    <div class="card-body">
+                        <h4 class="card-title identify" >Adsumus</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra luctus velit, sit amet egestas sapien porttitor sed. 
+                            Donec feugiat leo nulla, at aliquam libero elementum non.</p>
+                        <button class="btn bg-blue-gradient text-white">Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-11 col-sm-11 col-md-11 col-lg-3  m-1 p-0">
+                <div class="card p-3 filter">
+                    <div class="card-contain">
+                        <img src="/logos/aurora_access.jpeg" alt="Aurora_acces" class="myCard-img ">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title identify">Aurora Acces</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Quisque viverra luctus velit, sit amet egestas sapien porttitor sed. 
+                            Donec feugiat leo nulla, at aliquam libero elementum non.</p>
+                        <button class="btn bg-blue-gradient text-white">Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-11 col-sm-11 col-md-11 col-lg-3  m-1 p-0">
+                <div class="card p-3 filter">
+                    <div class="card-contain">
+                        <img src="/logos/b-raya.png" alt="B-raya" class="myCard-img ">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title identify">B-raya</h4>
+                        <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Quisque viverra luctus velit, sit amet egestas sapien porttitor sed. 
+                            Donec feugiat leo nulla, at aliquam libero elementum non.</p>
+                        <button class="btn bg-blue-gradient text-white">Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-11 col-sm-11 col-md-11 col-lg-3  m-1 p-0">
+                <div class="card p-3 filter">
+                    <div class="card-contain">
+                        <img src="/logos/climbsky.jpeg" alt="Climbsky" class="myCard-img ">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title identify">Climbsky</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Quisque viverra luctus velit, sit amet egestas sapien porttitor sed. 
+                            Donec feugiat leo nulla, at aliquam libero elementum non.</p>
+                        <button class="btn bg-blue-gradient text-white">Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-11 col-sm-11 col-md-11 col-lg-3  m-1 p-0">
+                <div class="card p-3 filter">
+                    <div class="card-contain">
+                        <img src="/logos/denac.png" alt="denac" class="myCard-img ">
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title identify">Denac</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Quisque viverra luctus velit, sit amet egestas sapien porttitor sed. 
+                            Donec feugiat leo nulla, at aliquam libero elementum non.</p>
+                        <button class="btn bg-blue-gradient text-white">Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-11 col-sm-11 col-md-11 col-lg-3 m-1 p-0">
+                <div class="card p-3 filter">
+                    <div class="card-contain">
+                        <img src="/logos/grum.jpg" alt="grum" class="myCard-img ">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title identify">Grum's</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Quisque viverra luctus velit, sit amet egestas sapien porttitor sed. 
+                            Donec feugiat leo nulla, at aliquam libero elementum non.</p>
+                        <button class="btn bg-blue-gradient text-white">Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-11 col-sm-11 col-md-11 col-lg-3  m-1 p-0">
+                <div class="card p-3 filter">
+                    <div class="card-contain">
+                        <img src="/logos/infogena.jpeg" alt="infogena" class="myCard-img ">
+                    </div>
+                    <div class="card-body">
+                        <div class="">
+                            <h4 class="card-title identify">Infogena</h4>
+                        </div>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Quisque viverra luctus velit, sit amet egestas sapien porttitor sed. 
+                            Donec feugiat leo nulla, at aliquam libero elementum non.</p>
+                        <button class="btn bg-blue-gradient text-white">Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-11 col-sm-11 col-md-11 col-lg-3  m-1 p-0">
+                <div class="card p-3 filter">
+                    <div class="card-contain">
+                        <img src="/logos/jj_assuntos_tecnicos.jpeg" alt="jj-assuntos técnicos" class="myCard-img ">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">JJ-Assuntos Técnicos</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Quisque viverra luctus velit, sit amet egestas sapien porttitor sed. 
+                            Donec feugiat leo nulla, at aliquam libero elementum non.</p>
+                        <button class="btn bg-blue-gradient text-white">Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-11 col-sm-11 col-md-11 col-lg-3  m-1 p-0">
+                <div class="card p-3 filter">
+                    <div class="card-contain">
+                        <img src="/logos/jota_ti.jpeg" alt="jota_ti" class="myCard-img ">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title identify">Jota TI</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Quisque viverra luctus velit, sit amet egestas sapien porttitor sed. 
+                            Donec feugiat leo nulla, at aliquam libero elementum non.</p>
+                        <button class="btn bg-blue-gradient text-white">Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-11 col-sm-11 col-md-11 col-lg-3  m-1 p-0">
+                <div class="card p-3 filter">
+                    <div class="card-contain">
+                        <img src="/logos/ls.jpeg" alt="LS" class="myCard-img ">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title identify">LS</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Quisque viverra luctus velit, sit amet egestas sapien porttitor sed. 
+                            Donec feugiat leo nulla, at aliquam libero elementum non.</p>
+                        <button class="btn bg-blue-gradient text-white">Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class=" col-11 col-sm-11 col-md-11 col-lg-3  m-1 p-0">
+                <div class="card p-3 filter">
+                    <div class="card-contain">
+                        <img src="/logos/mabe.jpeg" alt="denac" class="myCard-img ">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title identify">MABE</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Quisque viverra luctus velit, sit amet egestas sapien porttitor sed. 
+                            Donec feugiat leo nulla, at aliquam libero elementum non.</p>
+                        <button class="btn bg-blue-gradient text-white">Acessar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-11 col-sm-11 col-md-11 col-lg-3 m-1 p-0">
+                <div class="card p-3 filter">
+                    <div class="card-contain">
+                        <img src="/logos/tea_light.png" alt="denac" class="myCard-img ">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title identify">TEA</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Quisque viverra luctus velit, sit amet egestas sapien porttitor sed. 
+                            Donec feugiat leo nulla, at aliquam libero elementum non.</p>
+                        <button class="btn bg-blue-gradient text-white">Acessar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+    
+
+
+<!---------Referência do projeto index.js--------------->
+<script type ="text/javascript" src="JS/index.js"></script>
+    
+</body>
+
+</html>
