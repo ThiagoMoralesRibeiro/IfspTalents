@@ -23,5 +23,5 @@ $(document).ready(function () {
     });
 });
 
-//effect fade aliado ao scroll
+
 
