@@ -39,7 +39,7 @@ h1{
 }
 
 .banner{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(numbers.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(/numbers.jpg);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
